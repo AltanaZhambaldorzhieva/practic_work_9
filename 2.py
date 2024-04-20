@@ -1,10 +1,8 @@
-n = int(input('число большее чем 2'))
-while n**0.5 > 2:
-    print(round(n**0.5, 3))
-    n = n**0.5
-    if n**0.5 <= 2:
-        print(round(n**0.5, 3))
-        break
+x = int(input('Введите число: '))
+while x > 2:
+    x **= 0.5
+    print(f'{x:.3f}')
+
 
 
 

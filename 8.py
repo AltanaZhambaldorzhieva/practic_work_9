@@ -12,3 +12,4 @@ def count_ways(x):
 x = int(input())
 ways = count_ways(x)
 print(ways)
+
